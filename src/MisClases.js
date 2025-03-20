@@ -1,12 +1,34 @@
 import React, { Component } from 'react';
-class MyComponent extends Component {
+
+
+const LoginBtn = () => {
+    return (
+      <button>Iniciar Sesion</button>
+    );
+  };
+
+const LogoutBtn = () => {
+    return (
+      <button>Cerrar Sesion</button>
+    );
+  }
+
+const AdminBtn = () => {
+    return (
+      <button>Admin</button>
+    );
+  }
+
+class MyNavBar extends Component {
    render() {
         return (
           <div>
-            <h1>My First React Component</h1>   
+            <AdminBtn />
+            <LoginBtn />
+            <LogoutBtn />  
           </div>
         );
     }
   };
 
-  export default MyComponent;
+  export default MyNavBar;

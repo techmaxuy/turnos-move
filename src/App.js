@@ -1,7 +1,7 @@
 
 import logo from './logonuevo.jpg';
 import './App.css';
-import MyComponent from './MisClases.js';
+import MyNavBar from './MisClases.js';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           Pagina principal
         </a>
       </header>
-      <MyComponent />
+      <MyNavBar />
     </div>
   );
 }
