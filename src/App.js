@@ -1,5 +1,6 @@
 import logo from './logonuevo.jpg';
 import './App.css';
+import './MisClases.js';
 
 function App() {
   return (
