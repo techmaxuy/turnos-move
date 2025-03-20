@@ -1,7 +1,7 @@
+
 import logo from './logonuevo.jpg';
 import './App.css';
-import MyComponent from './MisClases';
-
+import MyComponent from './MisClases.js';
 
 function App() {
   return (
