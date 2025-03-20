@@ -22,7 +22,7 @@ const AdminBtn = () => {
 class MyNavBar extends Component {
    render() {
         return (
-          <div>
+          <div className="MyNavBar">
             <AdminBtn />
             <LoginBtn />
             <LogoutBtn />  
