@@ -20,12 +20,16 @@ const AdminBtn = () => {
   }
 
 class MyNavBar extends Component {
+    constructor(props) {
+      super(props);
+    }
    render() {
-        return (
+        return ( 
           <div className="MyNavBar">
             <AdminBtn />
             <LoginBtn />
             <LogoutBtn />  
+            <p className="message" id="message">{this.props.userAgent}</p>
           </div>
         );
     }

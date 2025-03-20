@@ -1,7 +1,9 @@
-
 import logo from './logonuevo.jpg';
 import './App.css';
 import MyNavBar from './MisClases.js';
+
+const userAgent = navigator.userAgent;
+
 
 function App() {
   return (
@@ -11,14 +13,12 @@ function App() {
         <p>
           Aplicacion de reserva de turnos
         </p>
-        <div id="message">
-        </div>
       </header>
-      <MyNavBar />
+      <MyNavBar userAgent={userAgent}/>
     </div>
   );
 }
 
 export default App;
 
-ReactDOM.render(<MyNavBar />, document.getElementById('message'));
+
