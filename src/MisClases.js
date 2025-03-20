@@ -3,19 +3,19 @@ import React, { Component } from 'react';
 
 const LoginBtn = () => {
     return (
-      <button>Iniciar Sesion</button>
+      <button className="homeBtn">Iniciar Sesion</button>
     );
   };
 
 const LogoutBtn = () => {
     return (
-      <button>Cerrar Sesion</button>
+      <button className="homeBtn">Cerrar Sesion</button>
     );
   }
 
 const AdminBtn = () => {
     return (
-      <button>Admin</button>
+      <button className="homeBtn">Admin</button>
     );
   }
 
