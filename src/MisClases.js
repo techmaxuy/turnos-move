@@ -20,9 +20,7 @@ const AdminBtn = () => {
   }
 
 class MyNavBar extends Component {
-    constructor(props) {
-      super(props);
-    }
+
    render() {
         return ( 
           <div className="MyNavBar">
