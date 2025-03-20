@@ -11,14 +11,8 @@ function App() {
         <p>
           Aplicacion de reserva de turnos
         </p>
-        <a
-          className="App-link"
-          href="https://turnosmove.portal21.work"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Pagina principal
-        </a>
+        <div id="message">
+        </div>
       </header>
       <MyNavBar />
     </div>
@@ -26,3 +20,5 @@ function App() {
 }
 
 export default App;
+
+ReactDOM.render(<MyNavBar />, document.getElementById('message'));
