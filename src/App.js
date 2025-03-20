@@ -19,6 +19,7 @@ function App() {
           Pagina principal
         </a>
       </header>
+      <MyComponent />
     </div>
   );
 }
