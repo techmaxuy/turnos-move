@@ -3,7 +3,9 @@ import './App.css';
 import MyNavBar from './MisClases.js';
 
 const userAgent = navigator.userAgent;
-
+let userName;
+let isLogued = false;
+let isAdmin = false;
 
 function App() {
   return (
@@ -14,7 +16,7 @@ function App() {
           Aplicacion de reserva de turnos
         </p>
       </header>
-      <MyNavBar userAgent={userAgent}/>
+      <MyNavBar userAgent={userAgent} stateData={[userName, isLogued, isAdmin]}/>
     </div>
   );
 }
