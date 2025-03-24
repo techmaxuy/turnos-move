@@ -21,7 +21,7 @@ class MyApp extends Component {
     }
 
     handleLogoutClick() {
-        this.setState({isLogued: false});
+        this.setState({isLogued: false, isAdmin: false});
     }
 
     handleAdminClick() {

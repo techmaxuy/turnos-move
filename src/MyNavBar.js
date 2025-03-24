@@ -6,7 +6,7 @@ class MyNavBar extends Component {
    render() {
         return ( 
           <div className="MyNavBar">
-            <MiBoton text="Admin" handleclick={this.props.handles[2]} isAdmin={this.props.stateData[2]}/>
+            <MiBoton text="Admin" handleclick={this.props.handles[2]} isLogued={this.props.stateData[1]}/>
             <MiBoton text="Iniciar Sesion" handleclick={this.props.handles[0]} isLogued={this.props.stateData[1]}/>
             <MiBoton text="Cerrar Sesion" handleclick={this.props.handles[1]} isLogued={this.props.stateData[1]}/>
             <p className="message" id="message">{this.props.userAgent} - Datos de sesion: {this.props.stateData[0]} - Esta Logued: {this.props.stateData[1] ? "Si" : "No"} -  Es Admin: {this.props.stateData[2] ? "Si" : "No"}</p>

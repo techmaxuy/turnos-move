@@ -19,7 +19,7 @@ class MiBoton extends Component {
             );     
         }
 
-        if (this.props.text ==="Admin") {
+        if (this.props.text ==="Admin" &&  this.props.isLogued === true) {
             return ( 
             <>
                 <button onClick={this.props.handleclick} className="homeBtn">{this.props.text}</button>
